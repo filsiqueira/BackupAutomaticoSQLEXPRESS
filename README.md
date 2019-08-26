@@ -2,7 +2,7 @@
 
 O SQL Server na versão Express não possui o "SQL Server Agent",que é o responsável pela automação do SQL Server, trabalhando em cima de processamento de tarefas, executar jobs agendados e alertas.Para configurar o backup automático de suas bases de dados sem esta ferramenta,é necessário configurar alguns arquivos .bat e scripts além de usar o agendador de tarefas do windows para que excutà-los.
 # Baixando scripts
-Baixe o arquivo Scripts.zip e descompacte no C: do servidor.O script "SP_DatabaseBackup.sql" também está disponível no site https://ola.hallengren.com/  que é um repositório de scripts para Sql Server.
+Baixe o arquivo https://github.com/filsiqueira/BackupAutomaticoSQLEXPRESS.git e descompacte no C: do servidor.O script "SP_DatabaseBackup.sql" também está disponível no site https://ola.hallengren.com/  que é um repositório de scripts para Sql Server.
 
 # Criando a Stored Procedure na instância
 Edite o arquivo "SP_DatabaseBackup.sql".<br>
