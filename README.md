@@ -1,4 +1,4 @@
-# BackupAutomaticoSQLEXPRESS
+# Backup Automatico SQL SERVER EXPRESS
 
 O SQL Server na versão Express não possui o "SQL Server Agent",que é o responsável pela automação do SQL Server, trabalhando em cima de processamento de tarefas, executar jobs agendados e alertas.Para configurar o backup automático de suas bases de dados sem esta ferramenta,é necessário configurar alguns arquivos .bat e scripts além de usar o agendador de tarefas do windows para que excutà-los.
 # Baixando scripts
